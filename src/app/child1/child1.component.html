@@ -1,0 +1,6 @@
+<p>child1 works!</p>
+
+
+<select id="my-select" (change)="onChanged($event)">
+    <option *ngFor="let country of countries" [value]="country">{{country}}</option>
+</select>
